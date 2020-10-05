@@ -5,7 +5,7 @@ int imageWidthRatio;
 float imageHeightRatio;
 
 void setup() {
-  size(500, 500); //fullScreen(), displayWidth & displayHeight
+  size(800, 800); //fullScreen(), displayWidth & displayHeight
   pic = loadImage("file://fs-052/studuser$/Gr10/w.clayton/Downloads/Shinai.jpg"); // Dimension: 1833width, 1302length
   imageWidthRatio = 1833/1833;
   imageHeightRatio = 1302/1833;
