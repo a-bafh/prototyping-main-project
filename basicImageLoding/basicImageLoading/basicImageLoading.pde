@@ -1,16 +1,16 @@
 // Global Variables
 PImage pic;
 float imageStartWidth, imageStartHeight, imageWidth, imageHeight;
-int imageWidthRatio; 
+float imageWidthRatio; 
 float imageHeightRatio;
 
 void setup() {
   size(800, 800); //fullScreen(), displayWidth & displayHeight
-  pic = loadImage("file://fs-052/studuser$/Gr10/w.clayton/Downloads/Shinai.jpg"); // Dimension: 1833width, 1302length
-  imageWidthRatio = 1833/1833;
-  imageHeightRatio = 1302/1833;
-  imageStartWidth = width*1833;
-  imageStartHeight = height*1302;
+  pic = loadImage("‪image.jpg"); // Dimension: 1833width, 1302length
+  imageWidthRatio = 318/318;
+  imageHeightRatio = 159/318;
+  imageStartWidth = width*0;
+  imageStartHeight = height*0;
   imageWidth = width*imageWidthRatio; //Aspect Ratio
   imageHeight = height*imageHeightRatio; //Aspect Ratio
 }
